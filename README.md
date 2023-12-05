@@ -5,10 +5,10 @@ SecuPayroll is a small payroll services company that aims to implement a secure 
 ### Project Components:
 
 1. **Database Schema Setup:**
-   - Execute the provided SQL script (`P5_create_tables.txt`) to create the necessary tables and triggers for the payroll application.
+   - Clone/execute the provided SQL script to create the necessary tables and triggers for the payroll application.
 
 2. **User Account Creation:**
-   - Create separate user accounts (`JAdmin` for Nexum, `FAdmin` for Rashima, and `DBA643` for testing) with specific privileges and default tablespaces.
+   - Create separate user accounts (`JAdmin` for Nexum, `FAdmin` for Rashima, and `testing` for testing) with specific privileges and default tablespaces.
 
 3. **Public Synonyms:**
    - Establish public synonyms for each table to simplify access for users.
@@ -20,7 +20,7 @@ SecuPayroll is a small payroll services company that aims to implement a secure 
    - Implement a VPD policy function to control data access based on user roles and ownership (`CTL_SEC_USER` column).
 
 6. **Testing:**
-   - Thoroughly test the system using the provided user accounts (`JAdmin`, `FAdmin`, and `DBA643`) to ensure data access restrictions are functioning correctly.
+   - Thoroughly test the system using the provided user accounts (`JAdmin`, `FAdmin`, and `testing`) to ensure data access restrictions are functioning correctly.
 
 ### How to Use:
 
